@@ -19,9 +19,10 @@ const storage = multer.diskStorage({
   destination: function (req, file, cb) { cb(null, 'uploads/'); },
   filename: function (req, file, cb) { cb(null, Date.now() + path.extname(file.originalname)); }
 });
+
 // 🟢 ตั้งค่าระบบอัปโหลดรูป พร้อมจำกัดขนาดสูงสุด 5MB
 const upload = multer({ 
-  dest: 'uploads/',
+  storage: storage, // <--- แก้ตรงนี้ครับ! เปลี่ยนจาก dest: 'uploads/' เป็น storage: storage
   limits: { 
     fileSize: 5 * 1024 * 1024 // 5 MB (คำนวณเป็นหน่วย Byte)
   },
