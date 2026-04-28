@@ -452,7 +452,8 @@ function showPayment() {
   
   let html = '<div class="text-center fade-in">';
   html += '<h4 class="fw-bold mb-3 text-primary">ยอดชำระ: ' + total + ' ฿</h4>';
-  html += '<div class="bg-light p-3 rounded-4 d-inline-block mb-3"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=CasemePay" width="150"><p class="mt-2 mb-0 small fw-bold">สแกนเพื่อโอนเงิน</p></div>';
+ // โค้ดใหม่ (ใช้รูปจริง)
+html += '<div class="bg-light p-3 rounded-4 d-inline-block mb-3"><img src="/uploads/qrcode.png" width="250"><p class="mt-2 mb-0 small fw-bold">สแกนเพื่อโอนเงิน</p></div>';
   
   // 🟢 เพิ่มช่องกรอกที่อยู่ตรงนี้ 🟢
   html += '<div class="mb-3 text-start">';
