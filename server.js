@@ -254,10 +254,10 @@ app.get('/', (req, res) => {
 <div class="bg-dark text-white text-center py-5 mb-5" style="background: linear-gradient(135deg, #111, #333); border-radius: 0 0 40px 40px;">
   <div class="container py-4 fade-in">
     <h1 class="display-4 fw-bold mb-3">ปกป้องสมาร์ทโฟนของคุณ<br>ด้วยสไตล์ที่โดดเด่น</h1>
-    <p class="lead text-light mb-4 opacity-75">เคสมือถือพรีเมียม ดีไซน์มินิมอล กันกระแทกขั้นสุด จัดส่งฟรีทั่วประเทศ</p>
+    <p class="lead text-light mb-4 opacity-75">premiumcase iphone ดีไซน์มินิมอล กันกระแทกขั้นสุด จัดส่งฟรีทั่วประเทศ</p>
     <a href="#products-section" class="btn btn-primary btn-lg px-5 rounded-pill shadow">ช้อปเลยตอนนี้</a>
   </div>
-</div>
+</div>mi
 
 <div class="container mb-5 fade-in" id="products-section">
   <div class="d-flex justify-content-between align-items-end mb-4 border-bottom pb-3 flex-wrap gap-3">
